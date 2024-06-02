@@ -33,7 +33,7 @@ Before you begin, ensure you have the following:
 
 3. **Connect to Wi-Fi**: Create a file named `wpa_supplicant.conf` in the root of the SD card with the following content, adjusting for your network:
     ```plaintext
-    country=US
+    country=GB
     ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
     update_config=1
 
