@@ -19,7 +19,7 @@ Klipper is a 3D printer firmware that utilizes the processing power of a single-
 
 Before you begin, ensure you have the following:
 - An Ender 5 Pro 3D printer
-- A Raspberry Pi 5 8GB with an 8GB SD card
+- A Raspberry Pi 5 4GB/GB Ram with at least 8GB SD card, the faster the SD Card the better. use 128GB if you have one that is fast with go faster stripes or an NVME on PCI-e 1x 
 - Internet connection for the Raspberry Pi
 - Basic knowledge of using SSH and the command line interface
 
