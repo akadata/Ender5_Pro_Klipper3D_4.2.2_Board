@@ -1,6 +1,6 @@
 # Ender 5 Pro Klipper Configuration with Sprite SE Direct Drive
 
-This repository contains the Klipper configuration files for an Ender 5 Pro with TMC2209 stepper drivers, a BLTouch sensor, and a Sprite SE direct drive extruder. This setup is designed to enhance the printing capabilities and precision of the Ender 5 Pro.
+This repository contains the Klipper configuration files for an Ender 5 Pro with TMC2209 stepper drivers, a CR-Touch sensor, and a Sprite SE direct drive extruder. This setup is designed to enhance the printing capabilities and precision of the Ender 5 Pro.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -101,8 +101,8 @@ Before you begin, ensure you have the following:
 1. **Access Mainsail**:
     - Open a web browser and navigate to `http://<your-raspberry-pi-ip>` to access the Mainsail web interface.
 
-2. **Calibrate BLTouch**:
-    - Follow the calibration procedures for the BLTouch sensor and bed mesh leveling as per Klipper documentation.
+2. **Calibrate CR-Touch**:
+    - Follow the calibration procedures for the CR-Touch sensor and bed mesh leveling as per Klipper documentation.
 
 3. **Test the Printer**:
     - Perform initial test prints to verify everything is working correctly.
