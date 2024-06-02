@@ -31,7 +31,7 @@ Before you begin, ensure you have the following:
 
 2. **Enable SSH**: After flashing the SD card, create an empty file named `ssh` (no extension) in the root of the SD card to enable SSH on boot.
 
-3. **Connect to Wi-Fi**: Create a file named `wpa_supplicant.conf` in the root of the SD card with the following content, adjusting for your network:
+3. **Connect to Wi-Fi**: Create a file named `wpa_supplicant.conf` in the boot partition of the SD card with the following content, adjusting for your network:
     ```plaintext
     country=GB
     ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
